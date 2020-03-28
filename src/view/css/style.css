@@ -1,0 +1,62 @@
+header {
+    background: #418cf1;
+}
+
+header .uk-logo {
+    color: #fff;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 640px;
+    transform: translate(-50%, -50%);
+}
+
+.timeline-container {
+    margin: 20px auto 0;
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.timeline {
+    width: 100%;
+    min-width: 100px;
+    margin: 5px;
+    padding: 0 5px;
+}
+
+.timeline-heading {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: solid 1px #418cf1;
+    text-align: center;
+}
+
+.timeline-event-container {}
+
+.timeline-event {
+    margin: 10px 0;
+    padding: 20px 10px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.timeline-event:not(.disabled):hover {
+    border: solid 1px #418cf1;
+    box-shadow: 0 14px 25px rgba(0, 0, 0, .16);
+}
+
+.timeline-event.disabled {
+    background: #efefef;
+    color: #999;
+    border-color: #ddd;
+    cursor: default;
+    box-shadow: none;
+}
