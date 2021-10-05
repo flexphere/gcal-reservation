@@ -21,7 +21,7 @@
         "cors": "^2.8.5",
         "fastify": "^2.13.0",
         "fastify-cookie": "^3.6.0",
-        "fastify-static": "^2.6.0",
+        "fastify-static": "^4.2.4",
         "googleapis": "^48.0.0",
         "http": "0.0.1-security",
         "moment": "^2.24.0",
